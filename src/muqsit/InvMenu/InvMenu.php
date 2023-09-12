@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace muqsit\invmenu;
+namespace muqsit\Invmenu;
 
 use Closure;
 use LogicException;
-use muqsit\invmenu\inventory\SharedInvMenuSynchronizer;
-use muqsit\invmenu\session\InvMenuInfo;
-use muqsit\invmenu\session\network\PlayerNetwork;
-use muqsit\invmenu\transaction\DeterministicInvMenuTransaction;
-use muqsit\invmenu\transaction\InvMenuTransaction;
-use muqsit\invmenu\transaction\InvMenuTransactionResult;
-use muqsit\invmenu\transaction\SimpleInvMenuTransaction;
-use muqsit\invmenu\type\InvMenuType;
-use muqsit\invmenu\type\InvMenuTypeIds;
+use muqsit\Invmenu\inventory\SharedInvMenuSynchronizer;
+use muqsit\Invmenu\session\InvMenuInfo;
+use muqsit\Invmenu\session\network\PlayerNetwork;
+use muqsit\Invmenu\transaction\DeterministicInvMenuTransaction;
+use muqsit\Invmenu\transaction\InvMenuTransaction;
+use muqsit\Invmenu\transaction\InvMenuTransactionResult;
+use muqsit\Invmenu\transaction\SimpleInvMenuTransaction;
+use muqsit\Invmenu\type\InvMenuType;
+use muqsit\Invmenu\type\InvMenuTypeIds;
 use pocketmine\inventory\Inventory;
 use pocketmine\inventory\transaction\action\SlotChangeAction;
 use pocketmine\inventory\transaction\InventoryTransaction;
