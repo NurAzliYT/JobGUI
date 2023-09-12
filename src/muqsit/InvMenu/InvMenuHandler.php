@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace muqsit\invmenu;
+namespace muqsit\Invmenu;
 
 use InvalidArgumentException;
 use LogicException;
-use muqsit\invmenu\session\PlayerManager;
-use muqsit\invmenu\type\InvMenuTypeRegistry;
+use muqsit\Invmenu\session\PlayerManager;
+use muqsit\Invmenu\type\InvMenuTypeRegistry;
 use pocketmine\plugin\Plugin;
 use pocketmine\Server;
 
