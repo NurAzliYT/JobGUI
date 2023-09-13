@@ -2,7 +2,7 @@
 
 
 
-namespace DraXD\Job;
+namespace NurAzliYT\JobGUI;
 
 //Essentials Class
 use Closure;
@@ -41,7 +41,7 @@ use muqsit\invmenu\transaction\InvMenuTransaction;
 use muqsit\invmenu\transaction\InvMenuTransactionResult;
 use muqsit\invmenu\transaction\DeterministicInvMenuTransaction;
 
-use onebone\economyapi\EconomyAPI;
+use cooldogepm\BedrockEconomy\BedrockEconomy;
 
 class Main extends PluginBase implements Listener{
 	public $prefix = "[§aJob§2GUI§f] §r";
