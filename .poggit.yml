@@ -5,6 +5,6 @@ branches:
 projects:
   JobGUI:
     path: ""
-    - src: muqsit/InvMenu/invmenu
-        version: ^1.0.0
+    - src: muqsit/invMenu/Invmenu
+      version: ^1.0.0
 ...
